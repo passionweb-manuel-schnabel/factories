@@ -1,0 +1,26 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true"
+>
+<f:layout name="Default" />
+
+<f:section name="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Factory based on the TYPO3 class "ExtensionConfiguration"</h2>
+                <p>Custom key: {extConfCustomKey}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Factory based on the custom class "CustomLanguageFactory"</h2>
+                <ul>
+                    <f:for each="{customLanguages}" as="speech" key="isoCode">
+                        <li>{isoCode} => {speech}</li>
+                    </f:for>
+                </ul>
+            </div>
+        </div>
+    </div>
+</f:section>
+</html>

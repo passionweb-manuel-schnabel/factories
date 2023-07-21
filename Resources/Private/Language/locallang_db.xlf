@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:factories/Resources/Private/Language/locallang_db" date="2023-05-19T13:34:38Z" product-name="factories">
+		<header/>
+		<body>
+			<trans-unit id="plugin_factories_example.name" resname="plugin_factories_exampleoutput.name">
+				<source>Factories example</source>
+			</trans-unit>
+			<trans-unit id="plugin_factories_example.description" resname="plugin_factories_exampleoutput.description">
+				<source>Example output of two different ways using a factory class</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

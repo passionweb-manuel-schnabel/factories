@@ -1,0 +1,2 @@
+# cat=Basic; type=string; label=Custom key:
+customKey =
